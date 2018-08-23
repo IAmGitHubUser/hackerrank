@@ -4,7 +4,6 @@ import java.util.Arrays;
 //THIS IS WRONG SOLUTION, JS HAS CORRECT ONE
 public class PickingNumbers {
     static int pickingNumbers(int[] a) {
-        int[] b;
         int result = 0;
         int count = 0;
         int[] uniqueNumbers = Arrays.stream(a).distinct().toArray();

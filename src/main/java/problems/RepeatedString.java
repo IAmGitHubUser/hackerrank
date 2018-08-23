@@ -26,5 +26,6 @@ public class RepeatedString {
         // How to count a particular character in a string
         String myString = "My String";
         long count = myString.chars().filter(ch -> ch == 'a').count();
+        System.out.println(count);
     }
 }

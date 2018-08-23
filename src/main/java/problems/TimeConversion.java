@@ -1,10 +1,5 @@
 package problems;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
-
 public class TimeConversion {
     static String timeConversion(String s) {
         int indexBeforeAmPm = s.length() - 2;

@@ -2,7 +2,6 @@ package problems;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
 public class BetweenTwoSets {
@@ -16,7 +15,6 @@ public class BetweenTwoSets {
 
     static int getTotalX(int[] a, int[] b) {
         int maxInA = Arrays.stream(a).max().getAsInt();
-        int minInA = Arrays.stream(a).min().getAsInt();
         int minInB = Arrays.stream(b).min().getAsInt();
         int count = 0;
         int theNumber = maxInA;
